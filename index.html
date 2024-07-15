@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator Pro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">QR Code Generator Pro</div>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="hero">
+            <h1>Create Dynamic QR Codes</h1>
+            <p>Generate, customize, and track your QR codes in seconds!</p>
+        </div>
+        <div class="qr-generator">
+            <div class="input-container">
+                <input type="text" id="urlInput" placeholder="Enter URL or text">
+                <button id="generateBtn">Generate QR Code</button>
+            </div>
+            <div class="qr-preview">
+                <div id="qrCodeContainer"></div>
+                <div id="downloadOptions" style="display: none;">
+                    <button id="downloadPNG" class="download-btn">
+                        <i class="fas fa-download"></i> Download PNG
+                    </button>
+                    <button id="downloadSVG" class="download-btn">
+                        <i class="fas fa-download"></i> Download SVG
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="features">
+            <div class="feature">
+                <i class="fas fa-bolt"></i>
+                <h3>Lightning Fast</h3>
+                <p>Generate QR codes instantly with our optimized algorithm.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Customizable</h3>
+                <p>Personalize your QR codes with colors and designs.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-chart-line"></i>
+                <h3>Analytics</h3>
+                <p>Track scans and engagement with built-in analytics.</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
