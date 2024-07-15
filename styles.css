@@ -51,7 +51,8 @@ nav ul li a {
     transition: all 0.3s ease;
 }
 
-nav ul li a:hover, nav ul li a.active {
+nav ul li a:hover,
+nav ul li a.active {
     background-color: var(--background-color);
     color: var(--primary-color);
 }
@@ -264,3 +265,74 @@ footer a:hover {
     .qr-preview {
         width: 100%;
     }
+
+    .features {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .feature {
+        padding: 1rem;
+    }
+
+    .feature i {
+        font-size: 2rem;
+    }
+
+    .feature h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .nav ul {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logo,
+    nav ul li a {
+        font-size: 0.8rem;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .container,
+    .hero,
+    .qr-generator,
+    .input-container,
+    .qr-preview,
+    .features,
+    .feature {
+        padding: 0.5rem;
+    }
+
+    .feature {
+        margin-bottom: 1rem;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 0.6rem;
+        text-wrap: wrap;
+    }
+
+    .footer-container a {
+        font-size: 0.6rem;
+    }
+
+    .download-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+
+    .footer p {
+        font-size: 0.6rem;
+    }
+}
