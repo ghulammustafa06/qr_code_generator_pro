@@ -297,3 +297,123 @@ footer p {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .features-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .mission-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .mission-section p {
+        font-size: 0.9rem;
+    }
+
+    footer ul li {
+        margin: 0 5px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .features-section h2 {
+        font-size: 1.2rem;
+    }
+
+    .mission-section h2 {
+        font-size: 1.2rem;
+    }
+
+    .mission-section p {
+        font-size: 0.8rem;
+    }
+
+    footer ul li {
+        margin: 0 3px;
+    }
+
+        .logo {
+            font-size: 0.9rem;
+            font-weight: 600;
+        }   
+        .about-section h1 {
+            color: var(--white);
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .about-section p {
+            font-size: 0.7rem;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6
+        }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .features-section h2 {
+        font-size: 1rem;
+    }
+
+    .mission-section h2 {
+        font-size: 1rem;
+    }
+
+    .mission-section p {
+        font-size: 0.7rem;
+    }
+
+    footer ul li {
+        margin: 0 2px;
+    }
+
+    .container, .hero, .qr-generator, .input-container, .qr-preview, .features, .feature {
+        padding: 0.5rem;
+    }
+    
+    .feature {
+        margin-bottom: 1rem;
+    }
+    
+    .footer-container {
+        flex-direction: column;
+        gap: 0.6rem;
+        text-wrap: wrap;
+    }
+    
+    .footer-container a {
+        font-size: 0.6rem;
+        width: 50%;
+    }
+    
+    .download-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+    
+    .footer p {
+        font-size: 0.6rem;
+    }
+    
+        .logo {
+            font-size: .8rem;
+            font-weight: 600;
+        }   
+
+        .about-section h1 {
+            color: var(--white);
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+
+        
+        .about-section p {
+            font-size: 0.6rem;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6
+        }
+    
+    }
